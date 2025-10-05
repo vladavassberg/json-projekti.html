@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: #e0bbff;
+}
+
+.navbar-custom .nav-link {
+    color: #000000;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #3096ea;
+}
+
+.hero {
+    background-color: #fff3b0;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    color: #7e57c2;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    color: #000000;
+    font-size: 1.2rem;
+}
+
+#json-content {
+    background-color: #f0f0ff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+}
+
+#json-content h1 {
+    color: #3096ea;
+    margin-bottom: 15px;
+}
+
+#json-content h3 {
+    color: #3096ea;
+    margin-top: 20px;
+}
+
+#json-content p {
+    margin: 10px 0;
+}
+
+#json-content ul li {
+    margin-bottom: 8px;
+}
+
+#json-content img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #e0bbff;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+}
+
+#pokemon-container {
+    background-color: #f0f0ff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    color: #000000;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#pokemon-container h1 {
+    color: #3096ea; 
+    margin-bottom: 15px;
+}
+
+#pokemon-container h3 {
+    color: #3096ea;
+    margin-top: 20px;
+}
+
+#pokemon-container input {
+    padding: 8px;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#pokemon-container button {
+    padding: 8px 12px;
+    background-color: #3096ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#pokemon-container button:hover {
+    background-color: #2674c1;
+}
+
+#pokemon-container #nimi {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#pokemon-container #kuva2 img {
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+#weather-container {
+    background-color: #f0f0ff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#weather-container h3 {
+    color: #3096ea;
+    margin-bottom: 15px;
+}
